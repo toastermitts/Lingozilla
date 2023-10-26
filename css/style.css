@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+}
+
+body  {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+#logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+#wordmark {
+  height: 36px;
+}
+
+.navLinks a {
+  padding: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+#navigation {
+  background-color: whitesmoke;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#heroBlock  {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  color: white;
+  background-color: #38023B;
+  font-weight: 700;
+}
+
+#heroLogo {
+  width: 300px;
+}
