@@ -2,8 +2,25 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h2  {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-size: 14px;
+}
+
 body  {
   font-family: 'Encode Sans', sans-serif;
+  text-align: center;
+  background-color: whitesmoke;
 }
 
 #logo {
@@ -17,25 +34,68 @@ body  {
 
 .navLinks a {
   padding: 20px;
+  padding-right: 0px;
   font-weight: 700;
   color: black;
+}
+
+.demoImage  {
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
 }
 
 #navigation {
   background-color: whitesmoke;
   padding-left: 50px;
   padding-right: 50px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, .3);
 }
 
 #heroBlock  {
+  text-align: left;
   max-width: 100%;
   margin: auto;
-  margin-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   color: white;
   background-color: #38023B;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #heroLogo {
   width: 300px;
+}
+
+.platformType {
+  margin: 30px;
+  margin-top: 80px;
+}
+
+
+.features {
+  margin-top: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 240px;
+}
+
+.featureWireframes img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+}
+
+.footerItem {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 783px) {
+  .navLinks {
+    display: none;
+  }
 }
