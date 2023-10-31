@@ -59,8 +59,8 @@ body  {
   margin: auto;
   padding-top: 100px;
   padding-bottom: 50px;
-  color: white;
-  background-color: #38023B;
+  color: black;
+  background-color: #a288e3;
   font-weight: 500;
 }
 
@@ -75,28 +75,60 @@ body  {
 
 
 .features {
-  margin-top: 80px;
+  margin-top: 10px;
   margin-left: 25px;
   margin-right: 25px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 240px;
+  max-width: 300px;
+  background-color: rgba(187, 213, 237, .4);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, .3);
 }
 
-.featureWireframes img {
+.appleWatchFrames img {
   max-width: 900px;
   width: 100%;
   height: auto;
 }
 
+.iPhoneFrames img {
+  max-height: 596px;
+  max-width: 400px;
+}
+
+.iPhoneFeature {
+  margin-bottom: 50px;
+  max-width: 400px;
+}
+
 .footerItem {
   padding-left: 50px;
   padding-right: 50px;
+  color: white;
+}
+
+.footerItem a {
+  text-decoration: none;
+  color: white;
+}
+
+#pageFooter {
+  margin-top: 50px;
+  height: 100px;
+  background-color: #0B3051;
 }
 
 @media screen and (max-width: 783px) {
   .navLinks {
     display: none;
+  }
+
+  .iPhoneFeature {
+    max-width: none;
   }
 }

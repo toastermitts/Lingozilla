@@ -22,8 +22,8 @@
       <img id="wordmark" src="img/wordmark.svg" alt="Lingozilla wordmark">
     </div>
     <div class="navLinks">
-      <a href="#">FEATURES</a>
-      <a href="#">PRICING</a>
+      <a onclick="scrollFunc()">FEATURES</a>
+      <a href="https://apps.apple.com/us/app/#">GET LINGOZILLA</a>
     </div>
   </nav>
 
@@ -34,40 +34,37 @@
         <!-- <img id="heroLogo" src="img/logoRighteous.svg" alt="heroImage"> -->
         <h1>Keep what you've learned</h1>
         <p>With Lingozilla's bite-sized and engaging activities, it only takes seconds a day to renew and reinforce progress towards your target language, all from the convenience of your wrist.</p>
+        <a href="https://apps.apple.com/us/app/#">
         <img src="img/official_AppStore_White.svg" alt="appStoreBadge" style="justify-self: center;">
+        </a>
       </div>
-        <img class="col-lg-4 col-sm demoImage" src="img/watchShots.png" alt="demoDevices">
+        <img class="col-lg-4 col-sm demoImage" src="img/compositeDevices.png" alt="demoDevices">
     </div>
   </div>
 
   <div class="container">
     <!-- Writing, Flashcards, Pronunciation dots -->
-    <div class="row align-items-center justify-content-center featureRow">
+    <div class="row platformType">
+      <div class="col">
+        <h2>Never fall behind again:</h2>
+        <p>Lingozilla uses powerfully intelligent lesson plans that grow with you and keep you on track with your chosen learning path.</p>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center featureRow" id="featureRow">
       <div class="col features">
-        <img src="img/Activity Dot.png" alt="">
+        <img src="img/writeDemo.png" alt="">
         <h2>Writing</h2>
         <p>Hone your Skills</p>
       </div>
       <div class="col features">
-        <img src="img/Activity Dot.png" alt="">
+        <img src="img/cardDemo.png" alt="">
         <h2>Flashcards</h2>
         <p>Test your Vocabulary</p>
       </div>
       <div class="col features">
-        <img src="img/Activity Dot.png" alt="">
+        <img src="img/talkDemo.png" alt="">
         <h2>Pronunciation</h2>
         <p>Listen & be heard</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col platformType">
-        <h1>Apple Watch</h1>
-        <p>Quick sessions at your fingertips designed to keep your language learning consistent and accessible.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col featureWireframes">
-        <img src="img/applewatchwireframes.png" alt="">
       </div>
     </div>
     <div class="row platformType">
@@ -77,20 +74,33 @@
       </div>
     </div>
     <div class="row">
-      <div class="col featureWireframes">
-        <img src="img/mobileWireframes.png" alt="">
+      <div class="col iPhoneFrames">
+        <img src="img/iPhoneLesson.png" alt="">
+      </div>
+      <div class="col" style="text-align: left; padding-top: 50px;">
+        <div class="iPhoneFeature">
+          <h2>In-Depth Histories</h2>
+          <p>Take a closer look at your progress, streaks, and how often you've broken your chain of practice sessions. Aim for the longest unbroken streak possible!</p>
+        </div>
+        <div class="iPhoneFeature">
+          <h2>Writing Guides</h2>
+          <p>Stroke-by-stroke guidance when writing characters.</p>
+        </div>
+        <div class="iPhoneFeature">
+          <h2>iCloud Sync</h2>
+          <p>Never lose your place by syncing your progress and completed lessons with iCloud.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <footer class="d-flex justify-content-between align-items-center border-top footerItem">
-    <div>Item</div>
-    <div>Item 2</div>
+  <footer id="pageFooter" class="d-flex justify-content-between align-items-center border-top footerItem">
+    <div>2023, Lingozilla</div>
+    <a href="mailto:erik@warmcidr.com">Contact Us</a>
   </footer>
 
 
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="Script/script.js"></script>
 </body>
 </html>
